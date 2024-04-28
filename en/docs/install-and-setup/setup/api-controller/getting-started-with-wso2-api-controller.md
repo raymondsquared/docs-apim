@@ -198,6 +198,9 @@ For more information, see [Download and Initialize the apictl](#download-and-ini
             
         !!! tip
             When adding an environment, when the optional flags are not given, apictl will automatically derive those from `--apim` flag value.
+        
+        !!! tip
+            When token hashing is enabled, The Client Secret value is displayed in plain text only once in `keys.json` file. Therefore, be sure to copy and save it for later use.
 
         !!! note
             You can either provide only the flag `--apim` , or all the other 4 flags (`--registration`, `--publisher`, `--devportal`, `--admin`) without providing `--apim` flag.
